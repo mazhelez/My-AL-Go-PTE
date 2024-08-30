@@ -1,4 +1,4 @@
-name: ' CI/CD'
+name: 'NEW CI/CD'
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    shell: powershell
+    shell: pwsh
 
 permissions:
   actions: read
